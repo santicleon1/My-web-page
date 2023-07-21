@@ -2,11 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    text-align: center;
-}
-
-.ul_nav {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,11 +10,11 @@ h1 {
     background-color: #616161;
 }
 
-.li_nav {
+li {
     float: left;
 }
 
-.li_nav a {
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -27,18 +23,16 @@ h1 {
 }
 
 
-.li_nav a:hover {
+li a:hover {
     background-color: #3b3b3b;
 }
 
-.ul_igra {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden; 
-}
-
-.li_igra {
-    float: left;
-    margin: 6.67px 6.67px 6.67px auto;
+.py-terminal{
+    color: white;
+    background-color: #616161;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 8px auto auto auto;
+    width: fit-content;
 }
